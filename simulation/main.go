@@ -19,6 +19,8 @@ func main() {
 		base_stations[i] = BaseStation{num_free_channels: i}
 	}
 
+	//FEL needs to be a priority queue
+
 	for i := 0; i < 2; i++ {
 		// fmt.Println(u.sample())
 		// fmt.Println(rand.Int63n(20))//0 to 20
