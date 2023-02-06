@@ -33,8 +33,7 @@ type Event interface {
 	get_time() float64
 	set_time(float64)
 	set_index(int) // get the index of the item in the priority queue
-	get_index() int // get the index of the item in the priority queue
-
+	get_index() int // set the index of the item in the priority queue
 }
 
 func (ci *CallInitiation) get_time() float64 {
@@ -87,7 +86,9 @@ func (ch *CallHandover) set_time(time float64) {
 
 type PriorityQueue []*Event
 
-
+// each struct implements Event but not the pointer
+// each element in the pq is a pointer to an Event not an Event
+// each operation the pq expects a 
 // https://pkg.go.dev/container/heap
 func (pq PriorityQueue) Len() int { return len(pq) }
 
