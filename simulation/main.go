@@ -55,18 +55,42 @@ func main() {
 		// fmt.Println(bs.has_available_channel())
 		// fmt.Println(n.sample())
 		// fmt.Println(ci.time)
+	}
 
-	}
-	fmt.Println(FEL)
-	heap.Init(&FEL)
-	ct := (Event) (&CallTermination{speed: 0.5, time: -500.0})
-	heap.Push(&FEL, &ct) // NOTE: remember to use head.Push NOT FEL.Push!
-	// FEL.Push(&ct)
-	// fmt.Println("size of pq: ", len(FEL))
-	for j := 0; j < 11; j ++ {
-		// fmt.Println((*FEL[len(FEL)-1]).get_time(), " ", (*FEL[len(FEL)-1]).get_index())
-		popped := heap.Pop(&FEL).(*Event) // Assert that the type is an Event pointer
-		fmt.Println((*popped).get_time(), " ", )
-	}
+	// fmt.Println(FEL)
+	heap.Init(&FEL)  // Initialise the heap
+	num_dropped_calls := 0
+	num_blocked_calls := 0
+	total_num_calls := 0
+	warm_up_num_calls := 200
+	for true {
+		if (len(FEL) == 0){ //  Stop iterating when FEL is empty
+			break
+		}
+		event := heap.Pop(&FEL).(*Event)
+		// now := (*event).get_time()
+		total_num_calls += 1
+		blocked_calls, dropped_calls := process_event(event, &FEL)
+		if total_num_calls > warm_up_num_calls{ // only start recording now
+			num_blocked_calls += blocked_calls
+			num_dropped_calls += dropped_calls
+		}
+	} 
+
+	fmt.Println(num_blocked_calls/total_num_calls * 100)
+	fmt.Println(num_dropped_calls/total_num_calls * 100)
+
+
+
+	// ct := (Event) (&CallTermination{speed: 0.5, time: -500.0})
+	// heap.Push(&FEL, &ct) // NOTE: remember to use head.Push NOT FEL.Push!
+	// // FEL.Push(&ct)
+	// // fmt.Println("size of pq: ", len(FEL))
+	// for j := 0; j < 11; j ++ {
+	// 	// fmt.Println((*FEL[len(FEL)-1]).get_time(), " ", (*FEL[len(FEL)-1]).get_index())
+	// 	popped := heap.Pop(&FEL).(*Event) // Assert that the type is an Event pointer
+	// 	fmt.Println((*popped).get_time(), " ", )
+	// }
+	// fmt.Println(FEL)
 
 }
