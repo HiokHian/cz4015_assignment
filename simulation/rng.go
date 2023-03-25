@@ -5,6 +5,14 @@ import (
 	"math/rand"
 )
 
+// Chi square statistic for interarrival times:  111.66106610661065 Beta for exponential distribution:  1.3698169264765245
+// Chi square:  Power_divergenceResult(statistic=111.66106610661068, pvalue=0.18115543265359552)
+// Chi square statistic for durations:  97.02980298029806 Beta for exponential distribution:  99.83194913549607
+// Chi square:  Power_divergenceResult(statistic=97.01999999999997, pvalue=0.5375175567180229)
+// Chi square statistic for speed:  96.30973097309734 Mean for normal distribution:  120.07209801685805 Std for normal distribution:  9.01905789789691
+// Chi square:  Power_divergenceResult(statistic=96.3, pvalue=0.558096218867612)
+// KS test:  KstestResult(statistic=0.00642989259070903, pvalue=0.8002543274915996)
+// KS test for uniformity:  KstestResult(statistic=0.055900000000000005, pvalue=1.332907138844621e-27)
 type RNG interface {
     sample() float64
 }

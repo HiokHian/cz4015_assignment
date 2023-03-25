@@ -102,8 +102,10 @@ for left, right in zip(interval_end_pts[:-1], interval_end_pts[1:]):
 print(
     "Chi square statistic for speed: ",
     chi_square_statistic,
-    "Beta for normal distribution: ",
-    beta,
+    "Mean for normal distribution: ",
+    mean,
+    "Std for normal distribution: ",
+    std,
 )
 ks = stats.kstest(speeds, lambda x: stats.norm.cdf(x, loc=mean, scale=std))
 print("Chi square: ", stats.chisquare(observed_frequencies))
