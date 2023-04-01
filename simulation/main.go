@@ -9,11 +9,6 @@ import (
 	"strconv"
 )
 
-// TODO: verify if the declaring simulation_clock as
-// a global variable here will allow it to be updated
-// in the main function
-
-// TODO: verify that base stations are edited in place with the subtraction of the channels
 func main() {
 	// define experiment settings
 	var using_reserved_fca_scheme bool = false
@@ -102,7 +97,6 @@ func main() {
 		var num_blocked_calls float64 = 0.0
 		var num_dropped_calls float64 = 0.0
 		var total_num_calls float64 = 0.0
-		// var warm_up_num_calls float64 = 200.0
 		var done_with_warmup bool = false
 		var current_pct_blocked_calls float64
 		var current_pct_dropped_calls float64 
@@ -125,7 +119,6 @@ func main() {
 		// }
 
 		for {
-			// fmt.Println("Number of events left", len(FEL))
 			if (len(FEL) == 0){ //  Stop iterating when FEL is empty
 				break
 			}

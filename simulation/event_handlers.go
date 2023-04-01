@@ -4,8 +4,6 @@ import (
 	"container/heap"
 )
 
-// Each call initiation will have no "previous_staion", only current station
-// During call initiation process_event has to check if there is a
 type CallInitiation struct {
 	time      float64
 	speed     float64
@@ -302,31 +300,7 @@ func (pq *PriorityQueue) update(item *Event, time float64) {
 	heap.Fix(pq, (*item).get_index())
 }
 
-// https://www.reddit.com/r/golang/comments/dyicuk/slices_take_in_multiple_types/
-// https://go.dev/play/p/330yHpjRMLG
-// func process_event(event_ptr *Event, FEL *PriorityQueue) int32, int32{
-// 	switch event_type := (*event_ptr).(type) {
-// 		case *CallInitiation:
-// 			return handle_call_initiation(event_ptr, FEL)
-// 		case *CallHandover:
-// 			return handle_call_handover(event_ptr, FEL)
-// 		case *CallTermination:
-// 			return handle_call_termination(event_ptr, FEL)
-// 	}
-// }
 
-
-
-
-
-// func handle_call_initiation(event *Event, FEL *PriorityQueue){
-	
-// 	simulation_clock =  event.get_time() // Required for later adding a new event to FEL
-// 	current_station := ((*event).(*CallInitiation)).station //ptr to base_station
-// 	num_blocked_calls := 0
-// 	num_dropped_calls := 0
-
-// }
 
 
 
