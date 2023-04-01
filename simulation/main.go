@@ -16,38 +16,39 @@ import (
 // TODO: verify that base stations are edited in place with the subtraction of the channels
 func main() {
 	// define experiment settings
-	var using_reserved_fca_scheme bool = true
-	var num_reserved_channels int = 5
+	var using_reserved_fca_scheme bool = false
+	var num_reserved_channels int = 0
+
 
 	// var write_running_pct_to_csv bool = true 
 	// var write_final_pct_to_csv bool = false
-	var num_expts int = 1
+	var num_expts int = 100
 
-	var running_pct_file *os.File
-	// var final_pct_file *os.File
+	// var running_pct_file *os.File
+	var final_pct_file *os.File
 	// set up file to write running pct to csv
 	// for showing steady state
 
-	running_pct_file, err := os.Create("logs/reservation_" + strconv.FormatBool(using_reserved_fca_scheme) + "_num_" + strconv.Itoa(num_reserved_channels) + ".csv")
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer running_pct_file.Close()
-	_, err2 := running_pct_file.WriteString("pct_blocked_calls" + "," +  "pct_dropped_calls"  +"\n")
-	if err2 != nil {
-		log.Fatal(err2)
-	}
-
-
-	// final_pct_file, err := os.Create("results/reservation_" + strconv.FormatBool(using_reserved_fca_scheme) + "_num_" + strconv.Itoa(num_reserved_channels) + ".csv")
+	// running_pct_file, err := os.Create("logs/reservation_" + strconv.FormatBool(using_reserved_fca_scheme) + "_num_" + strconv.Itoa(num_reserved_channels) + ".csv")
 	// if err != nil {
 	// 	log.Fatal(err)
 	// }
-	// defer final_pct_file.Close()
-	// _, err2 := final_pct_file.WriteString("final_pct_blocked_calls" + "," +  "final_pct_dropped_calls"  +"\n")
+	// defer running_pct_file.Close()
+	// _, err2 := running_pct_file.WriteString("pct_blocked_calls" + "," +  "pct_dropped_calls"  +"\n")
 	// if err2 != nil {
 	// 	log.Fatal(err2)
 	// }
+
+
+	final_pct_file, err := os.Create("results/reservation_" + strconv.FormatBool(using_reserved_fca_scheme) + "_num_" + strconv.Itoa(num_reserved_channels) + ".csv")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer final_pct_file.Close()
+	_, err2 := final_pct_file.WriteString("final_pct_blocked_calls" + "," +  "final_pct_dropped_calls"  +"\n")
+	if err2 != nil {
+		log.Fatal(err2)
+	}
 
 
 	for i := 0; i < num_expts; i++{
@@ -70,7 +71,7 @@ func main() {
 		}
 
 		//FEL needs to be a priority queue
-		var total_num_initiation_calls = 10000 // same number of calls as given in csv
+		var total_num_initiation_calls = 100000 // same number of calls as given in csv
 		var cur_time = 0.0
 		FEL:= make(PriorityQueue, total_num_initiation_calls)
 
@@ -108,7 +109,7 @@ func main() {
 		var previous_pct_blocked_calls float64
 		var previous_pct_dropped_calls float64 
 		var calls_since_previous_computation int = 0
-		var computation_interval int = 50
+		var computation_interval int = 200
 		var blocked_calls  float64
 		var dropped_calls float64
 
@@ -163,17 +164,15 @@ func main() {
 				}
 			}
 
-			// blocked_calls, dropped_calls := event.process_event(&FEL, base_stations) //now we dereference it to an Event
-
 			num_blocked_calls += blocked_calls
 			num_dropped_calls += dropped_calls
 
 			// check if warm up is done but check it at an interval of every 50 calls
 		
-			_, err2 := running_pct_file.WriteString(strconv.FormatFloat(num_blocked_calls/total_num_calls * 100.0, 'E', -1, 64) + "," + strconv.FormatFloat(num_dropped_calls/total_num_calls * 100.0, 'E', -1, 64) +"\n")
-			if err2 != nil {
-				log.Fatal(err2)
-			}
+			// _, err2 := running_pct_file.WriteString(strconv.FormatFloat(num_blocked_calls/total_num_calls * 100.0, 'E', -1, 64) + "," + strconv.FormatFloat(num_dropped_calls/total_num_calls * 100.0, 'E', -1, 64) +"\n")
+			// if err2 != nil {
+			// 	log.Fatal(err2)
+			// }
 
 
 			if (!done_with_warmup) && (calls_since_previous_computation == computation_interval){
@@ -186,9 +185,9 @@ func main() {
 				if ( (total_num_calls > 300) && 
 					(current_pct_blocked_calls > 0) &&
 					(current_pct_dropped_calls > 0) &&
-					(math.Abs((float64) (current_pct_blocked_calls - previous_pct_blocked_calls)) < 0.1) && 
-					(math.Abs((float64) (current_pct_dropped_calls - previous_pct_dropped_calls)) < 0.1) ){
-					fmt.Println("Done with warm up period! Resetting statistical counters.")
+					(math.Abs((float64) (current_pct_blocked_calls - previous_pct_blocked_calls)) < 0.001) && 
+					(math.Abs((float64) (current_pct_dropped_calls - previous_pct_dropped_calls)) < 0.001) ){
+					fmt.Println("Done with warm up period! Resetting statistical counters. Total warm up calls required: ", total_num_calls)
 					done_with_warmup = true
 					num_blocked_calls = 0
 					num_dropped_calls = 0
@@ -205,10 +204,10 @@ func main() {
 		fmt.Println("pct of blocked calls", num_blocked_calls/total_num_calls * 100)
 		fmt.Println("pct of dropped calls", num_dropped_calls/total_num_calls * 100)
 
-		// _, err2 := final_pct_file.WriteString(strconv.FormatFloat(num_blocked_calls/total_num_calls * 100.0, 'E', -1, 64) + "," + strconv.FormatFloat(num_dropped_calls/total_num_calls * 100.0, 'E', -1, 64) +"\n")
-		// if err2 != nil {
-		// 	log.Fatal(err2)
-		// }
+		_, err2 := final_pct_file.WriteString(strconv.FormatFloat(num_blocked_calls/total_num_calls * 100.0, 'E', -1, 64) + "," + strconv.FormatFloat(num_dropped_calls/total_num_calls * 100.0, 'E', -1, 64) +"\n")
+		if err2 != nil {
+			log.Fatal(err2)
+		}
 
 	}
 }

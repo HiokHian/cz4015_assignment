@@ -1,6 +1,600 @@
 Running expt  0
-Done with warm up period! Resetting statistical counters.
-total num of blocked calls 1615
-total num of dropped calls 3
-pct of blocked calls 6.159185385759506
-pct of dropped calls 0.011441211242896914
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  36600
+total num of blocked calls 889
+total num of dropped calls 1399
+pct of blocked calls 0.29186200738026763
+pct of dropped calls 0.45929690475252466
+Running expt  1
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  25400
+total num of blocked calls 941
+total num of dropped calls 1375
+pct of blocked calls 0.29768589550940355
+pct of dropped calls 0.4349820471046013
+Running expt  2
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  50800
+total num of blocked calls 851
+total num of dropped calls 1210
+pct of blocked calls 0.29383735705209657
+pct of dropped calls 0.41779459698359206
+Running expt  3
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  51000
+total num of blocked calls 805
+total num of dropped calls 1258
+pct of blocked calls 0.2779648141434022
+pct of dropped calls 0.4343847654563975
+Running expt  4
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  10400
+total num of blocked calls 957
+total num of dropped calls 1422
+pct of blocked calls 0.2897155520034875
+pct of dropped calls 0.43048643150361465
+Running expt  5
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  48800
+total num of blocked calls 887
+total num of dropped calls 1303
+pct of blocked calls 0.30400866441830493
+pct of dropped calls 0.44658769981629237
+Running expt  6
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  37400
+total num of blocked calls 892
+total num of dropped calls 1358
+pct of blocked calls 0.2937167016799805
+pct of dropped calls 0.44716062879082236
+Running expt  7
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  37200
+total num of blocked calls 906
+total num of dropped calls 1314
+pct of blocked calls 0.29865801679209647
+pct of dropped calls 0.43315301773158355
+Running expt  8
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  46800
+total num of blocked calls 875
+total num of dropped calls 1286
+pct of blocked calls 0.29755225017513076
+pct of dropped calls 0.43731679282882074
+Running expt  9
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  45400
+total num of blocked calls 851
+total num of dropped calls 1247
+pct of blocked calls 0.2876175733999371
+pct of dropped calls 0.4214560681900371
+Running expt  10
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  37400
+total num of blocked calls 931
+total num of dropped calls 1348
+pct of blocked calls 0.30668682696076977
+pct of dropped calls 0.4440535367810071
+Running expt  11
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  50800
+total num of blocked calls 930
+total num of dropped calls 1284
+pct of blocked calls 0.3200363396101751
+pct of dropped calls 0.4418566237198546
+Running expt  12
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  46000
+total num of blocked calls 874
+total num of dropped calls 1224
+pct of blocked calls 0.29631739186449413
+pct of dropped calls 0.4149799629772778
+Running expt  13
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  43000
+total num of blocked calls 900
+total num of dropped calls 1369
+pct of blocked calls 0.3023279250226746
+pct of dropped calls 0.45987436595115727
+Running expt  14
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  45000
+total num of blocked calls 911
+total num of dropped calls 1233
+pct of blocked calls 0.3083766053524159
+pct of dropped calls 0.41737470296325885
+Running expt  15
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  24200
+total num of blocked calls 990
+total num of dropped calls 1406
+pct of blocked calls 0.31307317690215675
+pct of dropped calls 0.44462715830750743
+Running expt  16
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  39200
+total num of blocked calls 925
+total num of dropped calls 1327
+pct of blocked calls 0.306488273924309
+pct of dropped calls 0.43968642107844114
+Running expt  17
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  48800
+total num of blocked calls 854
+total num of dropped calls 1287
+pct of blocked calls 0.29171648163962427
+pct of dropped calls 0.4396242527754056
+Running expt  18
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  43800
+total num of blocked calls 870
+total num of dropped calls 1275
+pct of blocked calls 0.2928612544560355
+pct of dropped calls 0.4291932177372933
+Running expt  19
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  41600
+total num of blocked calls 922
+total num of dropped calls 1436
+pct of blocked calls 0.308037712903506
+pct of dropped calls 0.4797637263876732
+Running expt  20
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  38400
+total num of blocked calls 860
+total num of dropped calls 1278
+pct of blocked calls 0.2840045969116151
+pct of dropped calls 0.4220440405267955
+Running expt  21
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  49000
+total num of blocked calls 852
+total num of dropped calls 1274
+pct of blocked calls 0.2917558428216762
+pct of dropped calls 0.4362640184915675
+Running expt  22
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  51400
+total num of blocked calls 906
+total num of dropped calls 1293
+pct of blocked calls 0.31270601147969307
+pct of dropped calls 0.4462791090985024
+Running expt  23
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  44800
+total num of blocked calls 885
+total num of dropped calls 1305
+pct of blocked calls 0.2989501276871732
+pct of dropped calls 0.44082476455566216
+Running expt  24
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  45200
+total num of blocked calls 911
+total num of dropped calls 1247
+pct of blocked calls 0.30777442938418087
+pct of dropped calls 0.4212894768848227
+Running expt  25
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  33800
+total num of blocked calls 1002
+total num of dropped calls 1513
+pct of blocked calls 0.3266099065152483
+pct of dropped calls 0.4931744396782143
+Running expt  26
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  49200
+total num of blocked calls 888
+total num of dropped calls 1395
+pct of blocked calls 0.30408355449019775
+pct of dropped calls 0.47769882715520934
+Running expt  27
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  52400
+total num of blocked calls 869
+total num of dropped calls 1301
+pct of blocked calls 0.3010201430625076
+pct of dropped calls 0.45066421878518104
+Running expt  28
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  40600
+total num of blocked calls 937
+total num of dropped calls 1362
+pct of blocked calls 0.31103424696185594
+pct of dropped calls 0.4521116802156327
+Running expt  29
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  39200
+total num of blocked calls 910
+total num of dropped calls 1369
+pct of blocked calls 0.30133148781594277
+pct of dropped calls 0.4533217657362919
+Running expt  30
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  37600
+total num of blocked calls 911
+total num of dropped calls 1321
+pct of blocked calls 0.2998032027275181
+pct of dropped calls 0.4347310985763461
+Running expt  31
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  44600
+total num of blocked calls 828
+total num of dropped calls 1236
+pct of blocked calls 0.2792363492882508
+pct of dropped calls 0.4168310721259397
+Running expt  32
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  46400
+total num of blocked calls 842
+total num of dropped calls 1312
+pct of blocked calls 0.28533571000132163
+pct of dropped calls 0.4446086122585914
+Running expt  33
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  38600
+total num of blocked calls 852
+total num of dropped calls 1375
+pct of blocked calls 0.28086646645590696
+pct of dropped calls 0.45327628095877
+Running expt  34
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  42000
+total num of blocked calls 893
+total num of dropped calls 1287
+pct of blocked calls 0.29831201499243365
+pct of dropped calls 0.4299300820775611
+Running expt  35
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  49600
+total num of blocked calls 845
+total num of dropped calls 1287
+pct of blocked calls 0.2896087026558318
+pct of dropped calls 0.4410963317373438
+Running expt  36
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  40800
+total num of blocked calls 859
+total num of dropped calls 1331
+pct of blocked calls 0.28586736952101405
+pct of dropped calls 0.4429446668596854
+Running expt  37
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  32200
+total num of blocked calls 966
+total num of dropped calls 1279
+pct of blocked calls 0.3121475818256433
+pct of dropped calls 0.4132885684834346
+Running expt  38
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  44400
+total num of blocked calls 979
+total num of dropped calls 1349
+pct of blocked calls 0.33066057809871857
+pct of dropped calls 0.45562933590926596
+Running expt  39
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  42000
+total num of blocked calls 850
+total num of dropped calls 1323
+pct of blocked calls 0.28330783562812684
+pct of dropped calls 0.44096031357177856
+Running expt  40
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  37000
+total num of blocked calls 875
+total num of dropped calls 1326
+pct of blocked calls 0.2873884111854854
+pct of dropped calls 0.43551660940794706
+Running expt  41
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  35200
+total num of blocked calls 953
+total num of dropped calls 1380
+pct of blocked calls 0.3111024059021317
+pct of dropped calls 0.4504945646851435
+Running expt  42
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  50400
+total num of blocked calls 828
+total num of dropped calls 1217
+pct of blocked calls 0.28479641184037646
+pct of dropped calls 0.41859569228229243
+Running expt  43
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  42600
+total num of blocked calls 835
+total num of dropped calls 1290
+pct of blocked calls 0.27928009284808836
+pct of dropped calls 0.43146265841201675
+Running expt  44
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  45000
+total num of blocked calls 888
+total num of dropped calls 1401
+pct of blocked calls 0.29958200213890757
+pct of dropped calls 0.4726513344556413
+Running expt  45
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  20000
+total num of blocked calls 925
+total num of dropped calls 1422
+pct of blocked calls 0.2882221522872375
+pct of dropped calls 0.4430831357323803
+Running expt  46
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  45600
+total num of blocked calls 880
+total num of dropped calls 1277
+pct of blocked calls 0.29705343248616844
+pct of dropped calls 0.43106503782367855
+Running expt  47
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  40600
+total num of blocked calls 967
+total num of dropped calls 1388
+pct of blocked calls 0.3227259832796569
+pct of dropped calls 0.46323026348724283
+Running expt  48
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  45800
+total num of blocked calls 896
+total num of dropped calls 1317
+pct of blocked calls 0.30337915622672174
+pct of dropped calls 0.44592672851628634
+Running expt  49
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  37600
+total num of blocked calls 863
+total num of dropped calls 1315
+pct of blocked calls 0.28411429098175806
+pct of dropped calls 0.43292038544729067
+Running expt  50
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  47000
+total num of blocked calls 907
+total num of dropped calls 1317
+pct of blocked calls 0.30784478106364277
+pct of dropped calls 0.44700284086087927
+Running expt  51
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  40200
+total num of blocked calls 885
+total num of dropped calls 1340
+pct of blocked calls 0.29465525335357634
+pct of dropped calls 0.4461446773941156
+Running expt  52
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  30600
+total num of blocked calls 925
+total num of dropped calls 1331
+pct of blocked calls 0.2981841391826853
+pct of dropped calls 0.429062799191518
+Running expt  53
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  40600
+total num of blocked calls 960
+total num of dropped calls 1298
+pct of blocked calls 0.3194569232305081
+pct of dropped calls 0.43193238161791625
+Running expt  54
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  43200
+total num of blocked calls 843
+total num of dropped calls 1338
+pct of blocked calls 0.28270470939766795
+pct of dropped calls 0.4487056953429178
+Running expt  55
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  48800
+total num of blocked calls 870
+total num of dropped calls 1286
+pct of blocked calls 0.2982925324007406
+pct of dropped calls 0.44092436398546253
+Running expt  56
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  39400
+total num of blocked calls 856
+total num of dropped calls 1316
+pct of blocked calls 0.28460474518565804
+pct of dropped calls 0.43754654750505373
+Running expt  57
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  48200
+total num of blocked calls 877
+total num of dropped calls 1294
+pct of blocked calls 0.2992448928757878
+pct of dropped calls 0.44153123304591724
+Running expt  58
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  43800
+total num of blocked calls 840
+total num of dropped calls 1255
+pct of blocked calls 0.2830121931086531
+pct of dropped calls 0.4228336932754281
+Running expt  59
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  52000
+total num of blocked calls 810
+total num of dropped calls 1268
+pct of blocked calls 0.27962950816276505
+pct of dropped calls 0.43774100783998293
+Running expt  60
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  32400
+total num of blocked calls 787
+total num of dropped calls 1171
+pct of blocked calls 0.2547774824617915
+pct of dropped calls 0.37909076488279264
+Running expt  61
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  43000
+total num of blocked calls 914
+total num of dropped calls 1310
+pct of blocked calls 0.3067021465794657
+pct of dropped calls 0.4395840394082058
+Running expt  62
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  43400
+total num of blocked calls 953
+total num of dropped calls 1371
+pct of blocked calls 0.32063575374635794
+pct of dropped calls 0.46127137291317605
+Running expt  63
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  41800
+total num of blocked calls 846
+total num of dropped calls 1287
+pct of blocked calls 0.2824066655984618
+pct of dropped calls 0.42961865085723444
+Running expt  64
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  46800
+total num of blocked calls 827
+total num of dropped calls 1280
+pct of blocked calls 0.2806072245332827
+pct of dropped calls 0.4343134793259998
+Running expt  65
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  40200
+total num of blocked calls 903
+total num of dropped calls 1419
+pct of blocked calls 0.3004791694396379
+pct of dropped calls 0.4721815519765739
+Running expt  66
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  50000
+total num of blocked calls 913
+total num of dropped calls 1342
+pct of blocked calls 0.31355498545558197
+pct of dropped calls 0.4608880509106145
+Running expt  67
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  38400
+total num of blocked calls 945
+total num of dropped calls 1306
+pct of blocked calls 0.3123626182928804
+pct of dropped calls 0.43168844390529293
+Running expt  68
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  45200
+total num of blocked calls 881
+total num of dropped calls 1383
+pct of blocked calls 0.29820232401493385
+pct of dropped calls 0.46812010682480526
+Running expt  69
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  45000
+total num of blocked calls 913
+total num of dropped calls 1296
+pct of blocked calls 0.3081222094353568
+pct of dropped calls 0.4373782951021056
+Running expt  70
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  44400
+total num of blocked calls 963
+total num of dropped calls 1337
+pct of blocked calls 0.3258034285482294
+pct of dropped calls 0.4523356012138969
+Running expt  71
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  43800
+total num of blocked calls 853
+total num of dropped calls 1297
+pct of blocked calls 0.2871802468470774
+pct of dropped calls 0.43666211038764285
+Running expt  72
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  42200
+total num of blocked calls 875
+total num of dropped calls 1281
+pct of blocked calls 0.2924846487342936
+pct of dropped calls 0.42819752574700576
+Running expt  73
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  35400
+total num of blocked calls 874
+total num of dropped calls 1242
+pct of blocked calls 0.2857572567303354
+pct of dropped calls 0.40607610166942404
+Running expt  74
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  45400
+total num of blocked calls 837
+total num of dropped calls 1201
+pct of blocked calls 0.2832746139241149
+pct of dropped calls 0.40646691914320426
+Running expt  75
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  48000
+total num of blocked calls 926
+total num of dropped calls 1409
+pct of blocked calls 0.3158738551278334
+pct of dropped calls 0.48063311217615257
+Running expt  76
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  34200
+total num of blocked calls 924
+total num of dropped calls 1351
+pct of blocked calls 0.30149671583934534
+pct of dropped calls 0.44082474361358825
+Running expt  77
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  47200
+total num of blocked calls 836
+total num of dropped calls 1224
+pct of blocked calls 0.28475666248841897
+pct of dropped calls 0.4169164532127091
+Running expt  78
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  50800
+total num of blocked calls 940
+total num of dropped calls 1378
+pct of blocked calls 0.32337632403683736
+pct of dropped calls 0.4740559303433638
+Running expt  79
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  36000
+total num of blocked calls 894
+total num of dropped calls 1299
+pct of blocked calls 0.2932128121535727
+pct of dropped calls 0.42604411967280864
+Running expt  80
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  9400
+total num of blocked calls 1047
+total num of dropped calls 1444
+pct of blocked calls 0.31607165498378886
+pct of dropped calls 0.43591926437114725
+Running expt  81
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  40600
+total num of blocked calls 909
+total num of dropped calls 1304
+pct of blocked calls 0.3023469306298395
+pct of dropped calls 0.4337298102764695
+Running expt  82
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  42000
+total num of blocked calls 852
+total num of dropped calls 1304
+pct of blocked calls 0.2846860934852996
+pct of dropped calls 0.4357167440197543
+Running expt  83
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  48000
+total num of blocked calls 916
+total num of dropped calls 1388
+pct of blocked calls 0.3129409272753983
+pct of dropped calls 0.474194330849621
+Running expt  84
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  40400
+total num of blocked calls 881
+total num of dropped calls 1332
+pct of blocked calls 0.29346124379600946
+pct of dropped calls 0.44368941740781453
+Running expt  85
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  38000
+total num of blocked calls 919
+total num of dropped calls 1345
+pct of blocked calls 0.30267898900606677
+pct of dropped calls 0.4429850274354296
+Running expt  86
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  47000
+total num of blocked calls 905
+total num of dropped calls 1301
+pct of blocked calls 0.30770172312964955
+pct of dropped calls 0.44234247711787184
+Running expt  87
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  41600
+total num of blocked calls 885
+total num of dropped calls 1274
+pct of blocked calls 0.2953071194041803
+pct of dropped calls 0.4251087797976562
+Running expt  88
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  57200
+total num of blocked calls 837
+total num of dropped calls 1221
+pct of blocked calls 0.2946768060836502
+pct of dropped calls 0.42986903253062947
+Running expt  89
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  45800
+total num of blocked calls 821
+total num of dropped calls 1232
+pct of blocked calls 0.2786763383083226
+pct of dropped calls 0.41818422508630143
+Running expt  90
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  51200
+total num of blocked calls 882
+total num of dropped calls 1228
+pct of blocked calls 0.30367299720428037
+pct of dropped calls 0.42280095302364656
+Running expt  91
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  49400
+total num of blocked calls 851
+total num of dropped calls 1303
+pct of blocked calls 0.2923896237759835
+pct of dropped calls 0.4476894004466586
+Running expt  92
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  36200
+total num of blocked calls 936
+total num of dropped calls 1430
+pct of blocked calls 0.3072035289020756
+pct of dropped calls 0.4693387247115044
+Running expt  93
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  48800
+total num of blocked calls 859
+total num of dropped calls 1305
+pct of blocked calls 0.2943968634224749
+pct of dropped calls 0.44725018249863774
+Running expt  94
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  46000
+total num of blocked calls 865
+total num of dropped calls 1226
+pct of blocked calls 0.2930395484819535
+pct of dropped calls 0.415336978542052
+Running expt  95
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  43000
+total num of blocked calls 910
+total num of dropped calls 1305
+pct of blocked calls 0.3049056300321994
+pct of dropped calls 0.4372547771340881
+Running expt  96
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  39000
+total num of blocked calls 938
+total num of dropped calls 1335
+pct of blocked calls 0.3102057014352801
+pct of dropped calls 0.44149745353528674
+Running expt  97
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  50600
+total num of blocked calls 937
+total num of dropped calls 1282
+pct of blocked calls 0.3224496538053877
+pct of dropped calls 0.44117444629509817
+Running expt  98
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  49800
+total num of blocked calls 845
+total num of dropped calls 1336
+pct of blocked calls 0.2893062811988578
+pct of dropped calls 0.45741206116174443
+Running expt  99
+Done with warm up period! Resetting statistical counters. Total warm up calls required:  14200
+total num of blocked calls 1004
+total num of dropped calls 1368
+pct of blocked calls 0.3067372203008713
+pct of dropped calls 0.41794473841792035
